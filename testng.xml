@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Tests">
+    <test name="Yandex Login Page Test">
+        <classes>
+            <class name="uiTests.YandexLoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Google Search Result Page Tests">
+        <classes>
+            <class name="uiTests.GoogleSearchResultPageTest"/>
+        </classes>
+    </test>
+    <test name="API Tests">
+        <classes>
+            <class name="apiTests.ApiTest"/>
+        </classes>
+    </test>
+</suite>
